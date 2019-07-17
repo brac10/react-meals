@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Mess Hall`,
+    description: `Fine dining Website built by Gatsby. A healthy and nutritious family experience with entree's and little or no culinary skills.`,
+    author: `Scott.Braconnier@gmail.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,7 +19,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
-        short_name: `starter`,
+        short_name: `eMeals`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
