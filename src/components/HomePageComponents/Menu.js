@@ -12,7 +12,7 @@ export default function Menu() {
         <StaticQuery
           query={graphql`
             {
-              items: allContentfulMenu {
+              menu: allContentfulMenuItem {
                 edges {
                   node {
                     name
@@ -20,8 +20,8 @@ export default function Menu() {
                     id
                     ingredients
                     img {
-                      fixed(width: 150, height: 150) {
-                        ...GatsbyImageSharpFluid
+                      fixed(width: 50, height: 50) {
+                        ...GatsbyContentfulFixed_tracedSVG
                       }
                     }
                   }
@@ -30,9 +30,9 @@ export default function Menu() {
             }
           `}
           render={data => {
-            const { edges: sweets } = data.items
-            return sweets.map(item => {
-              return <Product key={item.node.id} product={item.node} />
+            const { edges: sweets } = data.menu
+            return sweets.map(menu => {
+              return <Product key={menu.node.id} product={menu.node} />
             })
           }}
         />

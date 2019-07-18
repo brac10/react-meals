@@ -48,9 +48,9 @@ export const ProductWrapper = styled.div`
     word-spacing: 0.2rem;
     text-transform: lowercase;
   }
-  // @media (min-width: 650px) {
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr;
-  //   grid-column-gap: 1rem;
-  // }
+  @media (min-width: 650px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+  }
 `
