@@ -7,13 +7,13 @@ export default class QuickInfo extends Component {
   render() {
     return (
       <Section>
-        <Title message="let us tell you" title="our misson" />
+        <Title message="let us tell you" title="our mission" />
         <QuickInfoWrapper>
           <p className="text">
-            Our Mission is to make sure you and your family can have the best
-            vacation and worry free dining experience when you leave your pets
-            with us. We are kid friendly and if they become a hassle, leave them
-            with us, no problem.
+            Our Mission is to make sure you and your family have the best
+            vacation or worry free dining experience when you leave your pets at
+            our home. We are kid friendly and if they need a break for the
+            summer, no problem. Sorry, no cats !!.
           </p>
           <Link to="/about/" style={{ textDecoration: "none" }}>
             <SectionButton style={{ margin: "2rem auto" }}>about</SectionButton>
