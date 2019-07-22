@@ -13,12 +13,12 @@ export default class Footer extends Component {
       {
         id: 2,
         icon: <FaTwitter className="icon twitter-icon" />,
-        path: `https://www.facebook.com`,
+        path: `https://www.twitter.com`,
       },
       {
         id: 3,
         icon: <FaInstagram className="icon instagram-icon" />,
-        path: `https://www.facebook.com`,
+        path: `https://www.instagram.com`,
       },
     ],
   }

@@ -20,7 +20,7 @@ export default function Menu() {
                     id
                     ingredients
                     img {
-                      fixed(width: 50, height: 50) {
+                      fixed(width: 150, height: 150) {
                         ...GatsbyContentfulFixed_tracedSVG
                       }
                     }

@@ -9,17 +9,16 @@ export default function about() {
     <Layout>
       <SEO title="Contact" />
       <PageHeader img={img}>
-        <Banner title="contact us" subtitle="let's get in touch" />
+        <Banner title="contact us" subtitle="let's keep in touch" />
       </PageHeader>
       <Section>
         <Title message="Reservations" title="Join our mailing list" />
         <ContactWrapper>
           <p className="text" align="center">
-           Voted #1 best place to stay on Santa Fe Trail, 3 years in a row
+            Voted #1 best place to stay on Santa Fe Trail, 3 years in a row
           </p>
         </ContactWrapper>
       </Section>
-
     </Layout>
   )
 }
